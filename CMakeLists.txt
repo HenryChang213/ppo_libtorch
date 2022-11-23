@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project(ppo)
 
-find_package(Eigen3 REQUIRED)
+# find_package(Eigen REQUIRED)
 find_package(Torch REQUIRED)
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS})
 

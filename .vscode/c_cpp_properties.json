@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/henrychang/nfs/anaconda3/envs/pytorch_py39/lib/python3.9/site-packages/torch/include/torch",
+                "/home/nfs_data/henrychang/anaconda3/envs/pytorch_py39/lib/python3.9/site-packages/torch/include/torch/csrc/api/include",
+                "/home/nfs_data/henrychang/anaconda3/envs/pytorch_py39/lib/python3.9/site-packages/torch/include",
+                "/home/nfs_data/henrychang/code/ppo_libtorch/eigen-3.4.0",
+                "/usr/include/eigen3"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
